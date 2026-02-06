@@ -6,6 +6,12 @@ import java.util.HashMap;
     不管發生幾次重複，我們都要在移動過程中，把曾經出現過的最大長度給存下來。
     遇到重複，只丟掉「左邊那重複的字元及其之前的所有字元」，盡可能保留後面的部分。
     O(n)
+    Example 1:
+
+    Input: s = "abcabcbb"
+    Output: 3
+    Explanation: The answer is "abc", with the length of 3. Note that "bca" and "cab" are also correct answers.
+
 */
 class Solution003 {
     public int lengthOfLongestSubstring(String s) {
