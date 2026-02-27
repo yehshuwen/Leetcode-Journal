@@ -1,5 +1,3 @@
-package Solution713;
-
 /*
     713. Subarray Product Less Than K
     Given an array of integers nums and an integer k, 
@@ -12,7 +10,7 @@ package Solution713;
     [10], [5], [2], [6], [10, 5], [5, 2], [2, 6], [5, 2, 6]
     Note that [10, 5, 2] is not included as the product of 100 is not strictly less than k.
 */
-public class Solution713 {
+public class p713 {
     public int numSubarrayProductLessThanK(int[] nums, int k) {
         if (k <= 1) return 0;
         int count = 0;
@@ -32,7 +30,7 @@ public class Solution713 {
     }
 
     public static void main(String[] args) {
-        Solution713 sol = new Solution713();
+        p713 sol = new p713();
         int[] nums = {10, 5, 2 ,6};
         int k = 100;
         System.out.println("Input: nums = [10, 5, 2, 6], k = " + k);

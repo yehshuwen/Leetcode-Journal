@@ -1,5 +1,3 @@
-package Solution209;
-
 /*
     209. Minimum Size Subarray Sum
     Given an array of positive integers nums and a positive integer target, return the minimal length of a subarray whose sum is greater than or equal to target. If there is no such subarray, return 0 instead.
@@ -9,7 +7,7 @@ package Solution209;
     Output: 2
     Explanation: The subarray [4,3] has the minimal length under the problem constraint.
 */
-class Solution209 {
+class p209 {
     public int minSubArrayLen(int target, int[] nums) {
         int left = 0;
         int currentSum = 0;
@@ -27,7 +25,7 @@ class Solution209 {
     }
 
     public static void main(String[] args) {
-        Solution209 pro = new Solution209();
+        p209 pro = new p209();
         int target = 7;
         int[] nums = {2, 3, 1, 2, 4, 3};
         int res = pro.minSubArrayLen(target, nums);

@@ -13,7 +13,7 @@ import java.util.HashMap;
     Explanation: The answer is "abc", with the length of 3. Note that "bca" and "cab" are also correct answers.
 
 */
-class Solution003 {
+class p3 {
     public int lengthOfLongestSubstring(String s) {
         if (s.length() <= 1) return s.length();
 
@@ -34,7 +34,7 @@ class Solution003 {
     }
 
     public static void main(String[] args) {
-        Solution003 sol = new Solution003();
+        p3 sol = new p3();
         System.out.println(sol.lengthOfLongestSubstring("abcabcbb"));
     }
 }

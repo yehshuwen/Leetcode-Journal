@@ -1,4 +1,4 @@
-package Solution438;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -14,7 +14,7 @@ import java.util.List;
     The substring with start index = 0 is "cba", which is an anagram of "abc".
     The substring with start index = 6 is "bac", which is an anagram of "abc".
 */
-class Solution438 {
+class p438 {
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> result = new ArrayList<>();
         if (s.length() < p.length()) return result;
@@ -41,7 +41,7 @@ class Solution438 {
     }
 
     public static void main(String[] args) {
-        Solution438 sol = new Solution438();
+        p438 sol = new p438();
         System.out.println(sol.findAnagrams("abab", "ab"));
     }
 }
